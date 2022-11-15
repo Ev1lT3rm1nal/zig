@@ -3,7 +3,7 @@ run-name: Push CI
 on:
   push:
     branches:
-      - master
+      - ci
 jobs:
   linux-aarch64:
     runs-on: [self-hosted, Linux, aarch64]
